@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peter & Mira - Wedding Invitation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Lora', serif;
+      background-color: #f2efe9;
+      color: #2c3531;
+    }
+    .font-serif-title { font-family: 'Cinzel', serif; }
+    .font-script { font-family: 'Great Vibes', cursive; }
+    .paper-texture {
+      background-color: #faf8f5;
+      background-image: radial-gradient(#e5decf 0.75px, transparent 0.75px);
+      background-size: 16px 16px;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex justify-center items-center p-0 sm:p-4">
+
+  <!-- Main Card Canvas -->
+  <div class="w-full max-w-md min-h-screen sm:min-h-0 paper-texture shadow-2xl sm:rounded-3xl border border-[#d6cebe] relative overflow-hidden my-0 sm:my-6 pb-12">
+    
+    <!-- Top Floral Frame -->
+    <div class="pt-8 px-6 text-center relative">
+      <!-- Floral Sprigs Decoration -->
+      <div class="flex justify-between items-center opacity-80 mb-2">
+        <svg class="w-16 h-16 text-[#8a9a86]" viewBox="0 0 100 100" fill="currentColor"><path d="M10,90 Q50,10 90,50 Q40,40 10,90 Z"/></svg>
+        <svg class="w-16 h-16 text-[#8a9a86] transform scale-x-[-1]" viewBox="0 0 100 100" fill="currentColor"><path d="M10,90 Q50,10 90,50 Q40,40 10,90 Z"/></svg>
+      </div>
+
+      <!-- Scripture Quote -->
+      <p class="text-xs sm:text-sm italic text-[#5a6b56] px-4 leading-relaxed font-serif">
+        "This is the day the Lord has made; We will rejoice and be glad in it."
+      </p>
+      <span class="block text-[10px] text-[#7a8a76] font-semibold mt-1">(Psalm 118:24) 🤍</span>
+
+      <!-- Floral Wreath Header with Names -->
+      <div class="my-8 relative flex justify-center items-center">
+        <!-- SVG Wreath Design -->
+        <div class="w-64 h-64 border-2 border-dashed border-[#a3b19b] rounded-full absolute flex items-center justify-center p-2 opacity-60"></div>
+        <div class="w-56 h-56 rounded-full border border-[#8a9a86] absolute flex items-center justify-center"></div>
+        
+        <div class="z-10 text-center py-10 px-4">
+          <h1 class="font-serif-title tracking-widest text-2xl text-[#2c3d2e] font-bold">PETER</h1>
+          <div class="text-3xl text-[#7a8b75] font-script my-1">&</div>
+          <h1 class="font-serif-title tracking-widest text-2xl text-[#2c3d2e] font-bold">MIRA</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invitation Message -->
+    <div class="px-6 text-center space-y-4 text-sm text-[#4a554d]">
+      <p class="leading-relaxed">
+        Together with our own families, and closest friends, we invite you to witness as we become <strong class="text-[#2c3d2e]">ONE</strong> 🥰🤍
+      </p>
+      
+      <div class="py-2">
+        <p class="text-xs tracking-wider uppercase text-[#7a8a76] font-semibold">We request the honour of your presence on</p>
+        <div class="my-3 inline-block border-y-2 border-[#8a9a86] py-2 px-6">
+          <p class="font-serif-title text-base text-[#1b2e21] font-bold">SATURDAY</p>
+          <p class="text-2xl font-bold text-[#4a5e4b] font-serif">07 . 11 . 2026</p>
+          <p class="text-sm font-semibold text-[#5a6b56]">AT 6:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Venue & Ceremony Details -->
+    <div class="px-6 my-8 space-y-6">
+      
+      <!-- Church Ceremony -->
+      <div class="bg-white/80 backdrop-blur-sm p-5 rounded-2xl border border-[#e0d9cc] text-center shadow-sm">
+        <div class="text-2xl mb-1">⛪️</div>
+        <h3 class="font-serif-title text-sm font-bold text-[#2c3d2e]">HOLY MATRIMONY</h3>
+        <p class="text-xs text-[#5a655d] mt-1 font-medium">Saint Mary and Saint Athanasius Church</p>
+        <p class="text-[11px] text-[#7a857d]">Nasr City, Cairo</p>
+        <a href="https://maps.app.goo.gl/E6GATABbci97HRYE9?g_st=ipc" target="_blank" class="mt-3 inline-flex items-center justify-center gap-1 text-xs text-white bg-[#4a5e4b] hover:bg-[#394a3a] px-4 py-2 rounded-full font-medium transition-all shadow">
+          📍 View Church Location
+        </a>
+      </div>
+
+      <!-- Wedding Reception -->
+      <div class="bg-white/80 backdrop-blur-sm p-5 rounded-2xl border border-[#e0d9cc] text-center shadow-sm">
+        <div class="text-2xl mb-1">🪩</div>
+        <h3 class="font-serif-title text-sm font-bold text-[#2c3d2e]">WEDDING RECEPTION</h3>
+        <p class="text-xs text-[#5a655d] mt-1 font-bold">Tiba Rose Hotel</p>
+        <p class="text-[11px] text-[#7a857d] font-semibold">(LILI HALL)</p>
+        <a href="https://maps.app.goo.gl/UtoWVnV9fjCCFVK19?g_st=ic" target="_blank" class="mt-3 inline-flex items-center justify-center gap-1 text-xs text-white bg-[#4a5e4b] hover:bg-[#394a3a] px-4 py-2 rounded-full font-medium transition-all shadow">
+          📍 View Reception Location
+        </a>
+      </div>
+    </div>
+
+    <!-- Note Box -->
+    <div class="px-6 my-6 text-center">
+      <div class="p-4 rounded-xl border border-dashed border-[#9ab098] bg-[#f0f4ef] text-xs text-[#3a4a3b] italic leading-relaxed">
+        "Kiss your little ones goodnight, dress up, and join us for an evening of love, laughter & dancing. See you there! 🤍💃"
+      </div>
+    </div>
+
+    <!-- RSVP Section -->
+    <div class="px-6 my-8 text-center">
+      <div class="bg-[#2c3d2e] text-white p-5 rounded-2xl shadow-lg">
+        <h3 class="font-serif-title text-sm tracking-widest text-[#d8e3d5]">PLEASE RSVP</h3>
+        <p class="text-xs text-[#b0c2ad] mt-1">Kindly confirm your attendance by</p>
+        <p class="text-lg font-bold text-[#f0f4ef] mt-1 font-serif">01 / 11 / 2026</p>
+      </div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <div class="px-6 my-8 text-center">
+      <h3 class="font-serif-title text-xs tracking-widest text-[#5a6b56] mb-4 uppercase">Photo Gallery</h3>
+      
+      <div class="grid grid-cols-2 gap-2">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" class="w-full h-40 object-cover rounded-xl shadow-sm border border-[#e0d9cc]">
+        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=600&q=80" class="w-full h-40 object-cover rounded-xl shadow-sm border border-[#e0d9cc]">
+        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80" class="w-full h-40 object-cover rounded-xl shadow-sm border border-[#e0d9cc]">
+        <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=600&q=80" class="w-full h-40 object-cover rounded-xl shadow-sm border border-[#e0d9cc]">
+      </div>
+    </div>
+
+    <!-- Bottom Footer Floral Accent -->
+    <div class="mt-12 text-center px-6">
+      <p class="text-xs text-[#5a6b56] font-medium italic">"We can't wait to celebrate our first step of forever with you! ♥️"</p>
+      
+      <div class="mt-6 flex justify-center items-center gap-2 text-[#8a9a86]">
+        <span>❦</span>
+        <div class="w-16 h-[1px] bg-[#8a9a86]"></div>
+        <span>P & M</span>
+        <div class="w-16 h-[1px] bg-[#8a9a86]"></div>
+        <span>❦</span>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
